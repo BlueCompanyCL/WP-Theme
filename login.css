@@ -1,0 +1,8 @@
+
+.login h1 a {
+  background-image: none,url(logo.png) !important;
+  -webkit-background-size: 180px !important;
+  background-size: 180px !important;
+  height: 180px !important;
+  width: 180px !important;
+}

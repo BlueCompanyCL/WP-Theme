@@ -1,0 +1,318 @@
+
+/* ----------------------------------
+    CUSTOM STYLES HERE...
+----------------------------------- */
+
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #404040;
+    background: #FFF;
+    font-size:16px;
+    font-size:1rem;
+    line-height:1.5
+}
+
+a {
+    color:#4169e1;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color:#191970;
+}
+
+/* BODY STYLES */
+body.post {
+    
+}
+body.page {
+    
+}
+body.home {
+    
+}
+body.category {
+    
+}
+body.tag {
+    
+}
+body.date {
+    
+}
+body.archives {
+    
+}
+body.search {
+    
+}
+body.error404  {
+
+}
+body.page-PAGE-ID {
+    
+}
+body.page-template-TEMPLATE-php {
+    
+}
+
+/*** BIG CONTAINER ***/
+#page {
+
+}
+
+/*** HEADER CONTAINER ***/
+#masthead {
+
+}
+
+/*** LOGO CONTAINER ***/
+.site-branding {
+
+}
+
+/*** LOGO ***/
+.site-branding .site-title {
+
+}
+
+/*** SITE DESCRIPTION ***/
+.site-branding .site-description {
+
+}
+
+/*** SITE NAVIGATION CONTAINER ***/
+#site-navigation {
+
+}
+
+/*** NAVIGATION LIST ***/
+.sf-menu {
+    float: left;
+    margin-bottom: 1em;
+}
+
+/*** NAVIGATION SKING START ***/
+.sf-menu ul {
+    box-shadow: 2px 2px 6px rgba(0,0,0,.2);
+    min-width: 12em; /* allow long menu items to determine submenu width */
+    *width: 12em; /* no auto sub width for IE7, see white-space comment below */
+}
+.sf-menu a {
+    border-left: 1px solid #fff;
+    border-top: 1px solid #dFeEFF; /* fallback colour must use full shorthand */
+    border-top: 1px solid rgba(255,255,255,.5);
+    padding: .75em 1em;
+    text-decoration: none;
+    zoom: 1; /* IE7 */
+}
+.sf-menu a {
+    color: #13a;
+}
+.sf-menu li {
+    background: #BDD2FF;
+    white-space: nowrap; /* no need for Supersubs plugin */
+    *white-space: normal; /* ...unless you support IE7 (let it wrap) */
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+.sf-menu ul li {
+    background: #AABDE6;
+}
+.sf-menu ul ul li {
+    background: #9AAEDB;
+}
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+    background: #CFDEFF;
+    /* only transition out, not in */
+    -webkit-transition: none;
+    transition: none;
+}
+
+/*** arrows (for all except IE7) **/
+.sf-arrows .sf-with-ul {
+    padding-right: 2.5em;
+    *padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+}
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    margin-top: -3px;
+    height: 0;
+    width: 0;
+    /* order of following 3 rules important for fallbacks to work */
+    border: 5px solid transparent;
+    border-top-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+    border-top-color: rgba(255,255,255,.5);
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+    border-top-color: white; /* IE8 fallback colour */
+}
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+    margin-top: -5px;
+    margin-right: -3px;
+    border-color: transparent;
+    border-left-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+    border-left-color: rgba(255,255,255,.5);
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+    border-left-color: white;
+}
+/*** NAVIGATION SKING END ***/
+
+/*** CONTENT CONTAINER ***/
+#content {
+
+}
+
+/*** PRIMARY COLUMN ***/
+#primary {
+
+}
+
+/*** PRIMARY COLUMN ***/
+#secondary {
+
+}
+
+/*** FOOTER ***/
+#colophon {
+
+}
+
+/*** FOOTER LIST ***/
+#colophon .site-info{
+
+}
+
+/*** MORE STYLE FOOTER ***/
+#colophon .myfooterclass {
+
+}
+
+/*** CONTENT CONTAINER STYLE ***/
+
+/*** CONTENT ***/
+#main {
+
+}
+
+/*** TITLE CONTAINER ***/
+.entry-header {
+
+}
+
+/*** TITLE ***/
+.entry-header .entry-title{
+
+}
+
+.entry-content {
+
+}
+.entry-content  h1 {
+
+}
+.entry-content h2 {
+
+}
+.entry-content h3 {
+
+}
+.entry-content h4 {
+
+}
+.entry-content h5 {
+
+}
+.entry-content ul {
+
+}
+.entry-content ol {
+
+}
+.entry-content p {
+
+}
+.entry-content img {
+    max-width: 100%;
+}
+
+/*** END CONTENT CONTAINER STYLE ***/
+
+
+/*** STYLE FOR FOOTER ***/
+#main .entry-footer {
+
+}
+
+.cycle-slideshow {
+
+}
+
+.cycle-overlay {
+
+}
+
+
+
+/*** POST ID - use <body> element class ***/
+body.post-POST-1 {
+
+}
+/*** POST ID - use <body> element class ***/
+body.post-POST-1 .myclass {
+
+}
+/*** POST ID - use <body> element class ***/
+body.post-POST-1 #myid {
+
+}
+
+/*** PAGE ID - use <body> element class ***/
+body.page-PAGE-1  {
+
+}
+/*** PAGE ID - use <body> element class ***/
+body.page-PAGE-1 .myclass {
+
+}
+/*** PAGE ID - use <body> element class ***/
+body.page-PAGE-1 #myid {
+
+}
+
+/*** PAGE TEMPLATE - use <body> element class ***/
+body.page-template-TEMPLATE-php  {
+
+}
+/*** PAGE TEMPLATE - use <body> element class ***/
+body.page-template-TEMPLATE-php .myclass {
+
+}
+/*** PAGE ITEMPLATE - use <body> element class ***/
+body.page-template-TEMPLATE-php #myid {
+
+}
+
+@media all and (max-width: 420px) {
+    /* Style adjustments for mobile that meet the condition */
+}

@@ -1,0 +1,8 @@
+#wp-admin-bar-wp-logo .ab-sub-wrapper {
+  display:none !important;
+}
+
+.svg .wp-badge {
+  background-image: url(logo.png) !important;
+}
+  
