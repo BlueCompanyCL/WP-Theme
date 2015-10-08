@@ -1,8 +1,9 @@
 
 .login h1 a {
   background-image: none,url(logo.png) !important;
-  -webkit-background-size: 180px !important;
-  background-size: 180px !important;
-  height: 180px !important;
-  width: 180px !important;
+  -webkit-background-size: 800px !important;
+  background-size: 800px !important;
+  height: 72px !important;
+  width: 800px !important;
+  margin-left: -260px;
 }
